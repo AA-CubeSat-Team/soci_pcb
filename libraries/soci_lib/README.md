@@ -1,0 +1,2 @@
+# soci_lib
+Directory for EAGLE component libraries for parts used by SOCI. Initially setup by adding all of the libraries that had been accumulated work on EPS projects to the libraries saved on the OBC google drive. A lot of these might not actually be used - should probably organize them at some point.
