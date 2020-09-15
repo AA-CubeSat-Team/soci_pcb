@@ -8002,83 +8002,54 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 
 Created by Upverter.com</description>
 <packages>
-<package name="NXP_FXAS21002CQR1_0">
+<package name="NXP_FXAS21002CQR1_0_EDITED">
 <description>Gyroscope Triple 3.6V 24-Pin QFN T/R</description>
-<polygon width="0" layer="29">
-<vertex x="-1.438" y="2.288"/>
-<vertex x="-1.438" y="1.938"/>
-<vertex x="-2.288" y="1.938"/>
-<vertex x="-2.288" y="-1.938"/>
-<vertex x="-1.438" y="-1.938"/>
-<vertex x="-1.438" y="-2.288"/>
-<vertex x="1.438" y="-2.288"/>
-<vertex x="1.438" y="-1.938"/>
-<vertex x="2.288" y="-1.938"/>
-<vertex x="2.288" y="1.938"/>
-<vertex x="1.438" y="1.938"/>
-<vertex x="1.438" y="2.288"/>
-</polygon>
 <wire x1="-2.025" y1="-2.025" x2="-2.025" y2="2.025" width="0.15" layer="51"/>
 <wire x1="-2.025" y1="2.025" x2="2.025" y2="2.025" width="0.15" layer="51"/>
 <wire x1="2.025" y1="2.025" x2="2.025" y2="-2.025" width="0.15" layer="51"/>
 <wire x1="2.025" y1="-2.025" x2="-2.025" y2="-2.025" width="0.15" layer="51"/>
-<wire x1="-2.388" y1="-2.388" x2="-2.388" y2="2.388" width="0.1" layer="39"/>
-<wire x1="-2.388" y1="2.388" x2="2.388" y2="2.388" width="0.1" layer="39"/>
-<wire x1="2.388" y1="2.388" x2="2.388" y2="-2.388" width="0.1" layer="39"/>
-<wire x1="2.388" y1="-2.388" x2="-2.388" y2="-2.388" width="0.1" layer="39"/>
-<wire x1="2.2" y1="2.6" x2="-2.2" y2="2.6" width="0.15" layer="21"/>
-<wire x1="2.2" y1="-2.6" x2="-2.2" y2="-2.6" width="0.15" layer="21"/>
 <text x="-2.075" y="2.925" size="1" layer="25">&gt;NAME</text>
 <circle x="-2.775" y="1.5" radius="0.25" width="0" layer="21"/>
-<smd name="1" x="-1.775" y="1.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="2" x="-1.775" y="1" dx="0.8" dy="0.3" layer="1"/>
-<smd name="3" x="-1.775" y="0.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="4" x="-1.775" y="0" dx="0.8" dy="0.3" layer="1"/>
-<smd name="5" x="-1.775" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="6" x="-1.775" y="-1" dx="0.8" dy="0.3" layer="1"/>
-<smd name="7" x="-1.775" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="13" x="1.775" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="14" x="1.775" y="-1" dx="0.8" dy="0.3" layer="1"/>
-<smd name="15" x="1.775" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="16" x="1.775" y="0" dx="0.8" dy="0.3" layer="1"/>
-<smd name="17" x="1.775" y="0.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="18" x="1.775" y="1" dx="0.8" dy="0.3" layer="1"/>
-<smd name="19" x="1.775" y="1.5" dx="0.8" dy="0.3" layer="1"/>
-<smd name="8" x="-1" y="-1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="9" x="-0.5" y="-1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="10" x="0" y="-1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="11" x="0.5" y="-1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="12" x="1" y="-1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="20" x="1" y="1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="21" x="0.5" y="1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="22" x="0" y="1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="23" x="-0.5" y="1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="24" x="-1" y="1.775" dx="0.3" dy="0.8" layer="1"/>
-<smd name="SMD_25" x="1" y="1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_26" x="0.5" y="1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_27" x="0" y="1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_28" x="-0.5" y="1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_29" x="-1" y="1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_30" x="-1" y="-1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_31" x="-0.5" y="-1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_32" x="0" y="-1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_33" x="0.5" y="-1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_34" x="1" y="-1.775" dx="0.269" dy="0.769" layer="1"/>
-<smd name="SMD_35" x="-1.775" y="1.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_36" x="-1.775" y="1" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_37" x="-1.775" y="0.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_38" x="-1.775" y="0" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_39" x="-1.775" y="-0.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_40" x="-1.775" y="-1" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_41" x="-1.775" y="-1.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_42" x="1.775" y="-1.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_43" x="1.775" y="-1" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_44" x="1.775" y="-0.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_45" x="1.775" y="0" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_46" x="1.775" y="0.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_47" x="1.775" y="1" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_48" x="1.775" y="1.5" dx="0.769" dy="0.269" layer="1"/>
-<smd name="SMD_49" x="0" y="0" dx="4.118" dy="4.118" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<smd name="1" x="-2.029" y="1.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="2" x="-2.029" y="1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="3" x="-2.029" y="0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="4" x="-2.029" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="5" x="-2.029" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="6" x="-2.029" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="7" x="-2.029" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="13" x="2.029" y="-1.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="14" x="2.029" y="-1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="15" x="2.029" y="-0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="16" x="2.029" y="0" dx="0.8" dy="0.3" layer="1"/>
+<smd name="17" x="2.029" y="0.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="18" x="2.029" y="1" dx="0.8" dy="0.3" layer="1"/>
+<smd name="19" x="2.029" y="1.5" dx="0.8" dy="0.3" layer="1"/>
+<smd name="8" x="-1" y="-2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="9" x="-0.5" y="-2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="10" x="0" y="-2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="11" x="0.5" y="-2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="12" x="1" y="-2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="20" x="1" y="2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="21" x="0.5" y="2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="22" x="0" y="2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="23" x="-0.5" y="2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="24" x="-1" y="2.029" dx="0.3" dy="0.8" layer="1"/>
+<smd name="49" x="0" y="0" dx="2.4892" dy="2.4892" layer="1"/>
+<wire x1="-2.1336" y1="-2.1336" x2="-1.7272" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="-2.1336" x2="2.1336" y2="-1.7272" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="2.1336" x2="1.7272" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="2.1336" x2="-2.1336" y2="1.7272" width="0.1524" layer="21"/>
+<wire x1="-2.1336" y1="-1.7272" x2="-2.1336" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="-2.1336" x2="2.1336" y2="-2.1336" width="0.1524" layer="21"/>
+<wire x1="2.1336" y1="1.7272" x2="2.1336" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-1.7272" y1="2.1336" x2="-2.1336" y2="2.1336" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-2.032" x2="2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="-2.032" x2="2.032" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="2.032" x2="-0.762" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="2.032" x2="-2.032" y2="2.032" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="2.032" x2="-2.032" y2="0.762" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.762" x2="-2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.762" x2="-0.762" y2="2.032" width="0.1524" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -8141,13 +8112,13 @@ Created by Upverter.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NXP_FXAS21002CQR1" prefix="U">
+<deviceset name="NXP_FXAS21002CQR1_EDITED" prefix="U">
 <description>Gyroscope Triple 3.6V 24-Pin QFN T/R</description>
 <gates>
 <gate name="G$0" symbol="NXP_FXAS21002CQR1_0_0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="NXP_FXAS21002CQR1_0_0" package="NXP_FXAS21002CQR1_0">
+<device name="NXP_FXAS21002CQR1_0_0" package="NXP_FXAS21002CQR1_0_EDITED">
 <connects>
 <connect gate="G$0" pin="!I2C!/SPI" pad="8"/>
 <connect gate="G$0" pin="!RST!" pad="4"/>
@@ -11097,7 +11068,7 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_D_L" device="" value="PC104"/>
-<part name="U1" library="NXP - FXAS21002CQR1" deviceset="NXP_FXAS21002CQR1" device="NXP_FXAS21002CQR1_0_0"/>
+<part name="U1" library="NXP - FXAS21002CQR1" deviceset="NXP_FXAS21002CQR1_EDITED" device="NXP_FXAS21002CQR1_0_0"/>
 <part name="U2" library="Honeywell - HMC5983-TR" deviceset="HONEYWELL_HMC5983-TR" device="HONEYWELL_HMC5983-TR_0_0"/>
 <part name="U5" library="Honeywell - HMC5983-TR" deviceset="HONEYWELL_HMC5983-TR" device="HONEYWELL_HMC5983-TR_0_0"/>
 <part name="U7" library="Honeywell - HMC5983-TR" deviceset="HONEYWELL_HMC5983-TR" device="HONEYWELL_HMC5983-TR_0_0"/>
@@ -11142,7 +11113,7 @@ Source: www.kingbright.com</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="4.7k"/>
 <part name="R2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="4.7k"/>
-<part name="U4" library="NXP - FXAS21002CQR1" deviceset="NXP_FXAS21002CQR1" device="NXP_FXAS21002CQR1_0_0"/>
+<part name="U4" library="NXP - FXAS21002CQR1" deviceset="NXP_FXAS21002CQR1_EDITED" device="NXP_FXAS21002CQR1_0_0"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1.0 uF"/>
@@ -11153,7 +11124,7 @@ Source: www.kingbright.com</description>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="4.7k"/>
 <part name="R10" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="R" device="" value="4.7k"/>
-<part name="U6" library="NXP - FXAS21002CQR1" deviceset="NXP_FXAS21002CQR1" device="NXP_FXAS21002CQR1_0_0"/>
+<part name="U6" library="NXP - FXAS21002CQR1" deviceset="NXP_FXAS21002CQR1_EDITED" device="NXP_FXAS21002CQR1_0_0"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1.0 uF"/>
