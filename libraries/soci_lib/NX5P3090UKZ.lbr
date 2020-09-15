@@ -1,0 +1,140 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BGA12CP40_3X4_135X165X56B26N">
+<text x="-1.69153" y="-1.44131" size="0.813538" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-1.69284" y="1.44242" size="0.814168" layer="25">&gt;NAME</text>
+<circle x="-1.05" y="0.67" radius="0.08" width="0.1" layer="21"/>
+<circle x="-0.58" y="1.34" radius="0.0254" width="0.00254062" layer="51"/>
+<wire x1="-0.675" y1="-0.825" x2="-0.675" y2="0.825" width="0.127" layer="51"/>
+<wire x1="0.675" y1="-0.825" x2="0.675" y2="0.825" width="0.127" layer="51"/>
+<wire x1="-0.68" y1="-0.88" x2="-0.68" y2="0.88" width="0.127" layer="21"/>
+<wire x1="0.68" y1="-0.88" x2="0.68" y2="0.88" width="0.127" layer="21"/>
+<wire x1="-0.675" y1="-0.825" x2="0.675" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="-0.675" y1="0.825" x2="0.675" y2="0.825" width="0.127" layer="51"/>
+<wire x1="-0.68" y1="-0.88" x2="0.68" y2="-0.88" width="0.127" layer="21"/>
+<wire x1="-0.68" y1="0.88" x2="0.68" y2="0.88" width="0.127" layer="21"/>
+<wire x1="-0.925" y1="1.075" x2="-0.925" y2="-1.075" width="0.05" layer="39"/>
+<wire x1="0.925" y1="1.075" x2="0.925" y2="-1.075" width="0.05" layer="39"/>
+<wire x1="-0.925" y1="1.075" x2="0.925" y2="1.075" width="0.05" layer="39"/>
+<wire x1="-0.925" y1="-1.075" x2="0.925" y2="-1.075" width="0.05" layer="39"/>
+<smd name="A3" x="0.4" y="0.6" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="B3" x="0.4" y="0.2" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="C3" x="0.4" y="-0.2" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="D3" x="0.4" y="-0.6" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="A2" x="0" y="0.6" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="B2" x="0" y="0.2" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="C2" x="0" y="-0.2" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="D2" x="0" y="-0.6" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="A1" x="-0.4" y="0.6" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="B1" x="-0.4" y="0.2" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="C1" x="-0.4" y="-0.2" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+<smd name="D1" x="-0.4" y="-0.6" dx="0.21" dy="0.21" layer="1" roundness="100"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NX5P3090UKZ">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.1645" y="8.63981" size="1.67714" layer="95">&gt;NAME</text>
+<text x="-10.1656" y="-9.65729" size="1.67732" layer="96">&gt;VALUE</text>
+<pin name="EN" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="!FAULT" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="ILIM" x="-15.24" y="-5.08" length="middle" direction="pas"/>
+<pin name="VINT" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NX5P3090UKZ" prefix="U">
+<description>USB Power SW Single 2.5V to 5.5V 0.4A to 3.3A 12-Pin WLCSP</description>
+<gates>
+<gate name="G$1" symbol="NX5P3090UKZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BGA12CP40_3X4_135X165X56B26N">
+<connects>
+<connect gate="G$1" pin="!FAULT" pad="A2"/>
+<connect gate="G$1" pin="EN" pad="A1"/>
+<connect gate="G$1" pin="GND" pad="B3 C3 D3"/>
+<connect gate="G$1" pin="ILIM" pad="A3"/>
+<connect gate="G$1" pin="VBUS" pad="C2 D1 D2"/>
+<connect gate="G$1" pin="VINT" pad="B1 B2 C1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Digi-Key_Part_Number" value="568-13049-1-ND"/>
+<attribute name="Description" value="
+USB Power SW Single 2.5V to 5.5V 0.4A to 3.3A 12-Pin WLCSP
+"/>
+<attribute name="MF" value="NXP USA"/>
+<attribute name="Package" value="UFBGA-12 NXP Semiconductors"/>
+<attribute name="Digi-Key_Purchase_URL" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/NX5P3090UKZ/568-13049-1-ND/6173637?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MP" value="NX5P3090UKZ"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

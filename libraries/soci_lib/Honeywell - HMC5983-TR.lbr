@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="HONEYWELL_HMC5983-TR_0">
+                    <description>3-Axis Digital Compass IC</description>
+                    <wire layer="51" y2="1.5" width="0.15" x2="-1.5" y1="-1.5" x1="-1.5"/>
+                    <wire layer="51" y2="1.5" width="0.15" x2="1.5" y1="1.5" x1="-1.5"/>
+                    <wire layer="51" y2="-1.5" width="0.15" x2="1.5" y1="1.5" x1="1.5"/>
+                    <wire layer="51" y2="-1.5" width="0.15" x2="-1.5" y1="-1.5" x1="1.5"/>
+                    <wire layer="39" y2="1.6" width="0.1" x2="-1.6" y1="-1.6" x1="-1.6"/>
+                    <wire layer="39" y2="1.6" width="0.1" x2="1.6" y1="1.6" x1="-1.6"/>
+                    <wire layer="39" y2="-1.6" width="0.1" x2="1.6" y1="1.6" x1="1.6"/>
+                    <wire layer="39" y2="-1.6" width="0.1" x2="-1.6" y1="-1.6" x1="1.6"/>
+                    <wire layer="21" y2="1.9" width="0.15" x2="-1.9" y1="-1.9" x1="-1.9"/>
+                    <wire layer="21" y2="1.9" width="0.15" x2="1.9" y1="1.9" x1="-1.9"/>
+                    <wire layer="21" y2="-1.9" width="0.15" x2="1.9" y1="1.9" x1="1.9"/>
+                    <wire layer="21" y2="-1.9" width="0.15" x2="-1.9" y1="-1.9" x1="1.9"/>
+                    <text layer="25" align="bottom-left" y="2.25" x="-1.625" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="0.75" x="-2.5" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.45" dy="0.3" y="-0.75" x="-1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.45" dy="0.3" y="-0.25" x="-1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.45" dy="0.3" y="0.25" x="-1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.45" dy="0.3" y="0.75" x="-1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.3" dy="0.45" y="-1.275" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.3" dy="0.45" y="-1.275" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="0" dx="0.3" dy="0.45" y="-1.275" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="0" dx="0.3" dy="0.45" y="-1.275" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="0" dx="0.45" dy="0.3" y="-0.75" x="1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="0" dx="0.45" dy="0.3" y="-0.25" x="1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="0" dx="0.45" dy="0.3" y="0.25" x="1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="0" dx="0.45" dy="0.3" y="0.75" x="1.275" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="0" dx="0.3" dy="0.45" y="1.275" x="1.05" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="0" dx="0.3" dy="0.45" y="1.275" x="0.55" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="0" dx="0.3" dy="0.45" y="1.275" x="0.05" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="0" dx="0.3" dy="0.45" y="1.275" x="-0.45" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="HONEYWELL_HMC5983-TR_0_0">
+                    <description>3-Axis Digital Compass IC</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-38.1" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="35.56" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-38.1" width="0.254" x2="35.56" y1="-5.08" x1="35.56"/>
+                    <wire layer="94" y2="-38.1" width="0.254" x2="2.54" y1="-38.1" x1="35.56"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="2.54" y1="-10.16" x1="2.54"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="2.54" y1="-35.56" x1="2.54"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="35.56" y1="-15.24" x1="35.56"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="2.54" y1="-15.24" x1="2.54"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="2.54" y1="-33.02" x1="2.54"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="2.54" y1="-22.86" x1="2.54"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="2.54" y1="-20.32" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="35.56" y1="-10.16" x1="35.56"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="35.56" y1="-7.62" x1="35.56"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="35.56" y1="-20.32" x1="35.56"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="2.54" y1="-27.94" x1="2.54"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="35.56" y1="-25.4" x1="35.56"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="35.56" y1="-27.94" x1="35.56"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="35.56" y1="-30.48" x1="35.56"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="35.56" y1="-35.56" x1="35.56"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-40.64" x="2.54" rot="R0" size="2.54">HMC5983-TR</text>
+                    <pin name="VDD" visible="both" length="middle" y="-7.62" x="-2.54"/>
+                    <pin name="VDDIO" visible="both" length="middle" y="-10.16" x="-2.54"/>
+                    <pin name="!SPI_CS!(S1)" visible="both" length="middle" y="-35.56" x="-2.54"/>
+                    <pin name="C1" visible="both" length="middle" y="-15.24" x="40.64" rot="R180"/>
+                    <pin name="DRDY" visible="both" length="middle" y="-15.24" x="-2.54"/>
+                    <pin name="I2C/!SPI!" visible="both" length="middle" y="-33.02" x="-2.54"/>
+                    <pin name="SCL/SPI_SCK" visible="both" length="middle" y="-22.86" x="-2.54"/>
+                    <pin name="SDA/SPI_SDI" visible="both" length="middle" y="-20.32" x="-2.54"/>
+                    <pin name="SETC" visible="both" length="middle" y="-10.16" x="40.64" rot="R180"/>
+                    <pin name="SETP" visible="both" length="middle" y="-7.62" x="40.64" rot="R180"/>
+                    <pin name="SOC" visible="both" length="middle" y="-20.32" x="40.64" rot="R180"/>
+                    <pin name="SPI_SDO" visible="both" length="middle" y="-27.94" x="-2.54"/>
+                    <pin name="1_NC" visible="both" length="middle" y="-25.4" x="40.64" rot="R180"/>
+                    <pin name="2_NC" visible="both" length="middle" y="-27.94" x="40.64" rot="R180"/>
+                    <pin name="3_NC" visible="both" length="middle" y="-30.48" x="40.64" rot="R180"/>
+                    <pin name="GND" visible="both" length="middle" y="-35.56" x="40.64" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="HONEYWELL_HMC5983-TR">
+                    <description>3-Axis Digital Compass IC</description>
+                    <gates>
+                        <gate name="G$0" symbol="HONEYWELL_HMC5983-TR_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="HONEYWELL_HMC5983-TR_0_0" package="HONEYWELL_HMC5983-TR_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="SCL/SPI_SCK"/>
+                                <connect gate="G$0" pad="2" pin="VDD"/>
+                                <connect gate="G$0" pad="3" pin="1_NC"/>
+                                <connect gate="G$0" pad="4" pin="!SPI_CS!(S1)"/>
+                                <connect gate="G$0" pad="5" pin="SPI_SDO"/>
+                                <connect gate="G$0" pad="6" pin="I2C/!SPI!"/>
+                                <connect gate="G$0" pad="7" pin="2_NC"/>
+                                <connect gate="G$0" pad="8" pin="SETP"/>
+                                <connect gate="G$0" pad="9" pin="SOC"/>
+                                <connect gate="G$0" pad="10" pin="C1"/>
+                                <connect gate="G$0" pad="11" pin="GND"/>
+                                <connect gate="G$0" pad="12" pin="SETC"/>
+                                <connect gate="G$0" pad="13" pin="VDDIO"/>
+                                <connect gate="G$0" pad="14" pin="3_NC"/>
+                                <connect gate="G$0" pad="15" pin="DRDY"/>
+                                <connect gate="G$0" pad="16" pin="SDA/SPI_SDI"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="MPN" value="HMC5983-TR"/>
+                                    <attribute name="digikey_description" value="IC Magnetoresistive Sensor X, Y, Z Axis 16-LPCC (3x3)"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="342-1092-1-ND"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="MF" value="Honeywell"/>
+                                    <attribute name="package" value="LPCC16"/>
+                                    <attribute name="temperature_range_low" value="-30°C"/>
+                                    <attribute name="datasheet" value="https://aerocontent.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5983_3_Axis_Compass_IC.pdf"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>

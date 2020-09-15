@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="NXP_FXAS21002CQR1_0">
+                    <description>Gyroscope Triple 3.6V 24-Pin QFN T/R</description>
+                    <polygon layer="29">
+                        <vertex y="2.288" x="-1.438"/>
+                        <vertex y="1.938" x="-1.438"/>
+                        <vertex y="1.938" x="-2.288"/>
+                        <vertex y="-1.938" x="-2.288"/>
+                        <vertex y="-1.938" x="-1.438"/>
+                        <vertex y="-2.288" x="-1.438"/>
+                        <vertex y="-2.288" x="1.438"/>
+                        <vertex y="-1.938" x="1.438"/>
+                        <vertex y="-1.938" x="2.288"/>
+                        <vertex y="1.938" x="2.288"/>
+                        <vertex y="1.938" x="1.438"/>
+                        <vertex y="2.288" x="1.438"/>
+                        <vertex y="2.288" x="-1.438"/>
+                    </polygon>
+                    <wire layer="51" y2="2.025" width="0.15" x2="-2.025" y1="-2.025" x1="-2.025"/>
+                    <wire layer="51" y2="2.025" width="0.15" x2="2.025" y1="2.025" x1="-2.025"/>
+                    <wire layer="51" y2="-2.025" width="0.15" x2="2.025" y1="2.025" x1="2.025"/>
+                    <wire layer="51" y2="-2.025" width="0.15" x2="-2.025" y1="-2.025" x1="2.025"/>
+                    <wire layer="39" y2="2.388" width="0.1" x2="-2.388" y1="-2.388" x1="-2.388"/>
+                    <wire layer="39" y2="2.388" width="0.1" x2="2.388" y1="2.388" x1="-2.388"/>
+                    <wire layer="39" y2="-2.388" width="0.1" x2="2.388" y1="2.388" x1="2.388"/>
+                    <wire layer="39" y2="-2.388" width="0.1" x2="-2.388" y1="-2.388" x1="2.388"/>
+                    <wire layer="21" y2="2.6" width="0.15" x2="-2.2" y1="2.6" x1="2.2"/>
+                    <wire layer="21" y2="-2.6" width="0.15" x2="-2.2" y1="-2.6" x1="2.2"/>
+                    <text layer="25" align="bottom-left" y="2.925" x="-2.075" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.5" x="-2.775" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.8" dy="0.3" y="1.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.8" dy="0.3" y="1.0" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="0.8" dy="0.3" y="0.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="0.8" dy="0.3" y="0.0" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="0.8" dy="0.3" y="-0.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="0.8" dy="0.3" y="-1.0" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="0" dx="0.8" dy="0.3" y="-1.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="0" dx="0.8" dy="0.3" y="-1.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="0" dx="0.8" dy="0.3" y="-1.0" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="0" dx="0.8" dy="0.3" y="-0.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="0" dx="0.8" dy="0.3" y="0.0" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="0" dx="0.8" dy="0.3" y="0.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="0" dx="0.8" dy="0.3" y="1.0" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="0" dx="0.8" dy="0.3" y="1.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="0" dx="0.3" dy="0.8" y="-1.775" x="-1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="0" dx="0.3" dy="0.8" y="-1.775" x="-0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="0" dx="0.3" dy="0.8" y="-1.775" x="0.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="0" dx="0.3" dy="0.8" y="-1.775" x="0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="0" dx="0.3" dy="0.8" y="-1.775" x="1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="0" dx="0.3" dy="0.8" y="1.775" x="1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="0" dx="0.3" dy="0.8" y="1.775" x="0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="0" dx="0.3" dy="0.8" y="1.775" x="0.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="0" dx="0.3" dy="0.8" y="1.775" x="-0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="0" dx="0.3" dy="0.8" y="1.775" x="-1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_25" stop="yes" roundness="0" dx="0.269" dy="0.769" y="1.775" x="1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_26" stop="yes" roundness="0" dx="0.269" dy="0.769" y="1.775" x="0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_27" stop="yes" roundness="0" dx="0.269" dy="0.769" y="1.775" x="0.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_28" stop="yes" roundness="0" dx="0.269" dy="0.769" y="1.775" x="-0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_29" stop="yes" roundness="0" dx="0.269" dy="0.769" y="1.775" x="-1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_30" stop="yes" roundness="0" dx="0.269" dy="0.769" y="-1.775" x="-1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_31" stop="yes" roundness="0" dx="0.269" dy="0.769" y="-1.775" x="-0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_32" stop="yes" roundness="0" dx="0.269" dy="0.769" y="-1.775" x="0.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_33" stop="yes" roundness="0" dx="0.269" dy="0.769" y="-1.775" x="0.5" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_34" stop="yes" roundness="0" dx="0.269" dy="0.769" y="-1.775" x="1.0" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_35" stop="yes" roundness="0" dx="0.769" dy="0.269" y="1.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_36" stop="yes" roundness="0" dx="0.769" dy="0.269" y="1.0" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_37" stop="yes" roundness="0" dx="0.769" dy="0.269" y="0.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_38" stop="yes" roundness="0" dx="0.769" dy="0.269" y="0.0" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_39" stop="yes" roundness="0" dx="0.769" dy="0.269" y="-0.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_40" stop="yes" roundness="0" dx="0.769" dy="0.269" y="-1.0" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_41" stop="yes" roundness="0" dx="0.769" dy="0.269" y="-1.5" x="-1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_42" stop="yes" roundness="0" dx="0.769" dy="0.269" y="-1.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_43" stop="yes" roundness="0" dx="0.769" dy="0.269" y="-1.0" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_44" stop="yes" roundness="0" dx="0.769" dy="0.269" y="-0.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_45" stop="yes" roundness="0" dx="0.769" dy="0.269" y="0.0" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_46" stop="yes" roundness="0" dx="0.769" dy="0.269" y="0.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_47" stop="yes" roundness="0" dx="0.769" dy="0.269" y="1.0" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="smd_48" stop="yes" roundness="0" dx="0.769" dy="0.269" y="1.5" x="1.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="no" name="smd_49" stop="no" roundness="100" dx="4.118" dy="4.118" y="-0.0" x="-0.0" rot="R0" cream="no"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="NXP_FXAS21002CQR1_0_0">
+                    <description>Gyroscope Triple 3.6V 24-Pin QFN T/R</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-53.34" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="60.96" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-53.34" width="0.254" x2="60.96" y1="-5.08" x1="60.96"/>
+                    <wire layer="94" y2="-53.34" width="0.254" x2="2.54" y1="-53.34" x1="60.96"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="2.54" y1="-10.16" x1="2.54"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="2.54" y1="-15.24" x1="2.54"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="2.54" y1="-17.78" x1="2.54"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="60.96" y1="-7.62" x1="60.96"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="2.54" y1="-22.86" x1="2.54"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="2.54" y1="-27.94" x1="2.54"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="2.54" y1="-33.02" x1="2.54"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="2.54" y1="-38.1" x1="2.54"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="2.54" y1="-43.18" x1="2.54"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="60.96" y1="-12.7" x1="60.96"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="60.96" y1="-17.78" x1="60.96"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="60.96" y1="-20.32" x1="60.96"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="60.96" y1="-22.86" x1="60.96"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="60.96" y1="-25.4" x1="60.96"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="60.96" y1="-30.48" x1="60.96"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="60.96" y1="-33.02" x1="60.96"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="60.96" y1="-35.56" x1="60.96"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="60.96" y1="-38.1" x1="60.96"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="60.96" y1="-40.64" x1="60.96"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="60.96" y1="-43.18" x1="60.96"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="60.96" y1="-45.72" x1="60.96"/>
+                    <wire layer="94" y2="-48.26" width="0.15" x2="60.96" y1="-48.26" x1="60.96"/>
+                    <wire layer="94" y2="-50.8" width="0.15" x2="60.96" y1="-50.8" x1="60.96"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-58.42" x="2.54" rot="R0" size="2.54">FXAS21002CQR1</text>
+                    <pin direction="pwr" name="VDD" visible="both" length="middle" y="-7.62" x="-2.54"/>
+                    <pin direction="pwr" name="VDDIO" visible="both" length="middle" y="-10.16" x="-2.54"/>
+                    <pin direction="out" name="INT1" visible="both" length="middle" y="-15.24" x="-2.54"/>
+                    <pin direction="io" name="INT2/PWR_CTRL" visible="both" length="middle" y="-17.78" x="-2.54"/>
+                    <pin direction="io" name="!I2C!/SPI" visible="both" length="middle" y="-7.62" x="66.04" rot="R180"/>
+                    <pin direction="out" name="!RST!" visible="both" length="middle" y="-22.86" x="-2.54"/>
+                    <pin direction="io" name="SA0/MISO" visible="both" length="middle" y="-27.94" x="-2.54"/>
+                    <pin direction="io" name="SCL/SCLK" visible="both" length="middle" y="-33.02" x="-2.54"/>
+                    <pin direction="io" name="SDA/MOSI/SPI_DATA" visible="both" length="middle" y="-38.1" x="-2.54"/>
+                    <pin direction="io" name="SPI_!CS!" visible="both" length="middle" y="-43.18" x="-2.54"/>
+                    <pin direction="out" name="VREGD" visible="both" length="middle" y="-12.7" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="GND1" visible="both" length="middle" y="-17.78" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="GND2" visible="both" length="middle" y="-20.32" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="GND3" visible="both" length="middle" y="-22.86" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="GND4" visible="both" length="middle" y="-25.4" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="2_RSVD_GND" visible="both" length="middle" y="-30.48" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="3_RSVD_GND" visible="both" length="middle" y="-33.02" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="4_RSVD_GND" visible="both" length="middle" y="-35.56" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="1_RSVD_GND" visible="both" length="middle" y="-38.1" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="5_RSVD_GND" visible="both" length="middle" y="-40.64" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="6_RSVD_GND" visible="both" length="middle" y="-43.18" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="7_RSVD_GND" visible="both" length="middle" y="-45.72" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="8_RSVD_GND" visible="both" length="middle" y="-48.26" x="66.04" rot="R180"/>
+                    <pin direction="pwr" name="9_RSVD_GND" visible="both" length="middle" y="-50.8" x="66.04" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="NXP_FXAS21002CQR1">
+                    <description>Gyroscope Triple 3.6V 24-Pin QFN T/R</description>
+                    <gates>
+                        <gate name="G$0" symbol="NXP_FXAS21002CQR1_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="NXP_FXAS21002CQR1_0_0" package="NXP_FXAS21002CQR1_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="GND1"/>
+                                <connect gate="G$0" pad="2" pin="INT2/PWR_CTRL"/>
+                                <connect gate="G$0" pad="3" pin="INT1"/>
+                                <connect gate="G$0" pad="4" pin="!RST!"/>
+                                <connect gate="G$0" pad="5" pin="GND2"/>
+                                <connect gate="G$0" pad="6" pin="1_RSVD_GND"/>
+                                <connect gate="G$0" pad="7" pin="2_RSVD_GND"/>
+                                <connect gate="G$0" pad="8" pin="!I2C!/SPI"/>
+                                <connect gate="G$0" pad="9" pin="3_RSVD_GND"/>
+                                <connect gate="G$0" pad="10" pin="4_RSVD_GND"/>
+                                <connect gate="G$0" pad="11" pin="SCL/SCLK"/>
+                                <connect gate="G$0" pad="12" pin="SDA/MOSI/SPI_DATA"/>
+                                <connect gate="G$0" pad="13" pin="SA0/MISO"/>
+                                <connect gate="G$0" pad="14" pin="GND3"/>
+                                <connect gate="G$0" pad="15" pin="VDD"/>
+                                <connect gate="G$0" pad="16" pin="VREGD"/>
+                                <connect gate="G$0" pad="17" pin="SPI_!CS!"/>
+                                <connect gate="G$0" pad="18" pin="VDDIO"/>
+                                <connect gate="G$0" pad="19" pin="GND4"/>
+                                <connect gate="G$0" pad="20" pin="5_RSVD_GND"/>
+                                <connect gate="G$0" pad="21" pin="6_RSVD_GND"/>
+                                <connect gate="G$0" pad="22" pin="7_RSVD_GND"/>
+                                <connect gate="G$0" pad="23" pin="8_RSVD_GND"/>
+                                <connect gate="G$0" pad="24" pin="9_RSVD_GND"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="Gyroscopes Triple Axis }2000?/s 24-Pin QFN Tape and Reel"/>
+                                    <attribute name="mouser_part_number" value="841-FXAS21002CQR1"/>
+                                    <attribute name="mfg_package_ident_rev" value="A"/>
+                                    <attribute name="mfg_package_ident_date" value="01/2016"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="digikey_description" value="IC GYROSCOPE 3-AXIS 24QFN"/>
+                                    <attribute name="device_class_L3" value="Gyroscopes"/>
+                                    <attribute name="device_class_L1" value="Sensors"/>
+                                    <attribute name="digikey_part_number" value="FXAS21002CQR1CT-ND"/>
+                                    <attribute name="max_supply_voltage" value="3.6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="verification_version" value="0.0.0.1"/>
+                                    <attribute name="datasheet" value="https://www.nxp.com/docs/en/data-sheet/FXAS21002.pdf"/>
+                                    <attribute name="sensor_output" value="I2C,SPI"/>
+                                    <attribute name="MF" value="NXP"/>
+                                    <attribute name="operating_supply_current" value="2.7mA"/>
+                                    <attribute name="footprint_url" value="https://www.nxp.com/docs/en/package-information/98ASA00356D.pdf"/>
+                                    <attribute name="MPN" value="FXAS21002CQR1"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="height" value="1.1mm"/>
+                                    <attribute name="mfg_package_ident" value="SOT1681-1"/>
+                                    <attribute name="device_class_L2" value="Motion Sensors"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="min_supply_voltage" value="1.95V"/>
+                                    <attribute name="package" value="VQFN24"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
