@@ -12681,9 +12681,9 @@ Source: www.kingbright.com</description>
 <junction x="96.52" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="13"/>
-<wire x1="40.64" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
-<label x="38.1" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="7"/>
+<wire x1="40.64" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
+<label x="38.1" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_SS_1" class="0">
@@ -12694,9 +12694,9 @@ Source: www.kingbright.com</description>
 <junction x="60.96" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="15"/>
-<wire x1="40.64" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
-<label x="38.1" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="10"/>
+<wire x1="66.04" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="68.58" y="124.46" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_SS_2" class="0">
@@ -12707,9 +12707,9 @@ Source: www.kingbright.com</description>
 <junction x="116.84" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="17"/>
-<wire x1="40.64" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="38.1" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="9"/>
+<wire x1="40.64" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
+<label x="38.1" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_SS_3" class="0">
@@ -12733,9 +12733,9 @@ Source: www.kingbright.com</description>
 <junction x="228.6" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="21"/>
-<wire x1="40.64" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="38.1" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="20"/>
+<wire x1="66.04" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
+<label x="68.58" y="111.76" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_EN_1" class="0">
@@ -12746,9 +12746,9 @@ Source: www.kingbright.com</description>
 <junction x="40.64" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="12"/>
-<wire x1="66.04" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
-<label x="68.58" y="121.92" size="1.016" layer="95" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="8"/>
+<wire x1="66.04" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<label x="68.58" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_EN_3" class="0">
@@ -12759,9 +12759,9 @@ Source: www.kingbright.com</description>
 <junction x="152.4" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="14"/>
-<wire x1="66.04" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<label x="68.58" y="119.38" size="1.016" layer="95" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="21"/>
+<wire x1="40.64" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="38.1" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_EN_4" class="0">
@@ -12772,9 +12772,9 @@ Source: www.kingbright.com</description>
 <junction x="208.28" y="195.58"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="16"/>
-<wire x1="66.04" y1="116.84" x2="68.58" y2="116.84" width="0.1524" layer="91"/>
-<label x="68.58" y="116.84" size="1.016" layer="95" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="22"/>
+<wire x1="66.04" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
+<label x="68.58" y="109.22" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -12803,9 +12803,9 @@ Source: www.kingbright.com</description>
 <junction x="208.28" y="193.04"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="18"/>
-<wire x1="66.04" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<label x="68.58" y="114.3" size="1.016" layer="95" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="15"/>
+<wire x1="40.64" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<label x="38.1" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -12834,9 +12834,9 @@ Source: www.kingbright.com</description>
 <junction x="208.28" y="190.5"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="20"/>
-<wire x1="66.04" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
-<label x="68.58" y="111.76" size="1.016" layer="95" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="17"/>
+<wire x1="40.64" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="38.1" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_SCK" class="0">
@@ -12865,9 +12865,9 @@ Source: www.kingbright.com</description>
 <junction x="228.6" y="198.12"/>
 </segment>
 <segment>
-<pinref part="H1" gate="G$1" pin="22"/>
-<wire x1="66.04" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<label x="68.58" y="109.22" size="1.016" layer="95" xref="yes"/>
+<pinref part="H1" gate="G$1" pin="11"/>
+<wire x1="40.64" y1="121.92" x2="38.1" y2="121.92" width="0.1524" layer="91"/>
+<label x="38.1" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="3V3_BUS" class="0">
