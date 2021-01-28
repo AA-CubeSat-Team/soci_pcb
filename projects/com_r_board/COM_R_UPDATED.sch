@@ -1147,10 +1147,10 @@ by exp-lbrs.ulp</description>
 <wire x1="23.24" y1="3.81" x2="23.24" y2="-66.04" width="0.127" layer="21"/>
 <wire x1="-23.37" y1="3.81" x2="-23.37" y2="-66.04" width="0.127" layer="21"/>
 <wire x1="-23.37" y1="-66.04" x2="23.24" y2="-66.04" width="0.127" layer="21"/>
-<pad name="P$33" x="-19.81" y="0.25" locked="yes" drill="3.16"/>
-<pad name="P$34" x="19.68" y="0.25" locked="yes" drill="3.048" rot="R180"/>
-<pad name="P$35" x="-19.81" y="-62.74" locked="yes" drill="3.18"/>
-<pad name="P$36" x="19.68" y="-62.74" locked="yes" drill="3.18"/>
+<pad name="P$33" x="-19.81" y="0" drill="3.96875"/>
+<pad name="P$34" x="19.68" y="0" drill="3.96875" rot="R180"/>
+<pad name="P$35" x="-19.81" y="-62.74" drill="3.96875"/>
+<pad name="P$36" x="19.68" y="-62.74" drill="3.96875"/>
 </package>
 </packages>
 <symbols>
