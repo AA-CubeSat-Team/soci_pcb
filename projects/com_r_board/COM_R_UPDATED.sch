@@ -1818,26 +1818,26 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="ANT_BURN1" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="24"/>
-<wire x1="12.7" y1="68.58" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
-<label x="12.7" y="73.66" size="1.27" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 <label x="96.52" y="66.04" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="23"/>
+<wire x1="12.7" y1="43.18" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
+<label x="12.7" y="27.94" size="1.4224" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="ANT_BURN2" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="26"/>
-<wire x1="15.24" y1="68.58" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="15.24" y="73.66" size="1.27" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <label x="96.52" y="63.5" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="25"/>
+<wire x1="15.24" y1="43.18" x2="15.24" y2="33.02" width="0.1524" layer="91"/>
+<label x="15.24" y="27.94" size="1.4224" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SA_RTN" class="0">
@@ -1923,9 +1923,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="127" y="66.04" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="41"/>
-<wire x1="35.56" y1="43.18" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<label x="35.56" y="30.48" size="1.27" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="42"/>
+<wire x1="35.56" y1="68.58" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="35.56" y="73.66" size="1.4224" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -1935,9 +1935,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="127" y="63.5" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="43"/>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<label x="38.1" y="30.48" size="1.27" layer="95" rot="R90"/>
+<pinref part="J4" gate="G$1" pin="44"/>
+<wire x1="38.1" y1="68.58" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<label x="38.1" y="73.66" size="1.4224" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SHUTDOWN" class="0">
