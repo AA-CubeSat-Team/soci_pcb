@@ -1,2 +1,2 @@
 # Design Rules
-Design rules for macrofab PCB manufacturing 
+Directory for design rules to comply with standards and/or manufacturing requirements of MacroFab PCB manufacturing
