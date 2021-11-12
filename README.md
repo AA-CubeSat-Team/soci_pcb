@@ -6,7 +6,7 @@ Directory for the design rules of various PCB manufacturers.
 ## libraries
 Directory for Eagle part/component libraries used across PCB designs.
 
-##projects
+## projects
 Repository for PCBs designed for soci in EAGLE
 
 Make sure to update your libraries, design rules, and projects paths by going to Options -> Directories in EAGLE.
