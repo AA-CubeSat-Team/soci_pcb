@@ -1,3 +1,6 @@
+# CIA_board
+Direcotry for CIA board eagle files.
+
 # eps_flatsat_module
 Directory to maintain the EAGLE files for the EPS module being designed for use in flatsat testing.
 
